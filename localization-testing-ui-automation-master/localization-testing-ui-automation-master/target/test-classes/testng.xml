@@ -4,8 +4,7 @@
   
    <test name="Multi Language Test" >
 	    <classes>
-	         <class name="MutliLangTests.HomePageTest"/>
-	          <class name="MutliLangTests.SignInPageTest"/>
+	         <class name="MutliLangTests.HomePageTest"/>	        
 	    </classes>
   </test> 
   

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="10.215" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.537" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AU"/>
     <property name="sun.boot.library.path" value="C:\Users\komal.verma982\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\komal.verma982\AppData\Local\Temp\surefire4965097094639232169\surefirebooter-20231123184950645_3.jar C:\Users\komal.verma982\AppData\Local\Temp\surefire4965097094639232169 2023-11-23T18-49-50_523-jvmRun1 surefire-20231123184950645_1tmp surefire_0-20231123184950645_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\komal.verma982\AppData\Local\Temp\surefire10177583181590286424\surefirebooter-20231124174210147_3.jar C:\Users\komal.verma982\AppData\Local\Temp\surefire10177583181590286424 2023-11-24T17-42-10_038-jvmRun1 surefire-20231124174210147_1tmp surefire_0-20231124174210147_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\localization-testing-ui-automation-master\localization-testing-ui-automation-master\target\test-classes;E:\localization-testing-ui-automation-master\localization-testing-ui-automation-master\target\classes;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\komal.verma982\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\komal.verma982\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\komal.verma982\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\komal.verma982\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\komal.verma982\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\komal.verma982\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\komal.verma982\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\komal.verma982\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\komal.verma982\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\komal.verma982\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\komal.verma982\.m2\repository\org\apache\directory\studio\org.apache.commons.io\2.4\org.apache.commons.io-2.4.jar;C:\Users\komal.verma982\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\komal.verma982\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\komal.verma982\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\komal.verma982\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\komal.verma982\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\komal.verma982\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.0\log4j-api-2.22.0.jar;C:\Users\komal.verma982\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.0\log4j-core-2.22.0.jar;C:\Users\komal.verma982\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\komal.verma982\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\komal.verma982\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\komal.verma982\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\komal.verma982\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\komal.verma982\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\komal.verma982\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\komal.verma982\AppData\Local\Temp\surefire4965097094639232169\surefirebooter-20231123184950645_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\komal.verma982\AppData\Local\Temp\surefire10177583181590286424\surefirebooter-20231124174210147_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16.0.1+9-24"/>
@@ -41,7 +41,7 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="logFileName" value="LogFile_23-11-2023_18-49-51"/>
+    <property name="logFileName" value="LogFile_24-11-2023_17-42-11"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\komal.verma982\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -60,37 +60,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="cartButtonLabelTest" classname="MutliLangTests.HomePageTest" time="0.191">
+  <testcase name="cartButtonLabelTest" classname="MutliLangTests.HomePageTest" time="0.206">
     <system-out><![CDATA[Log Initialized
-18:49:51.927 INFO  - Step-1 [[DriverFactory:initDriver]] - Browser Name is : [chrome]
-18:49:53.696 INFO  - Step-2 [[Base Test:initializationBeforeSuite]] - Initalized log, report, browser instance
-18:49:53.702 INFO  - Step-3 [[LanguageFileReader:initLangFile]] - Language Name is : [english]
-18:49:53.703 INFO  - Step-4 [[LanguageFileReader:initLangFile]] - Language File is Initialized
-18:49:57.565 INFO  - Step-5 [[DriverFactory:launchApplication]] - Application is launched
-18:49:57.566 INFO  - Step-6 [[Base Test:setupBeforeTest]] - Property file loaded
-18:49:57.614 INFO  - Step-1 [[HomePageTest:cartButtonLabelTest]] - Test Case 1: STARTED
-18:49:57.641 INFO  - Step-2 [[UnicodeConverter:UnicodeToStringConverter]] - Unicode [\u0043\u0061\u0072\u0074] Converted to String [Cart]
-18:49:57.805 INFO  - Step-3 [[HomePage:verifyCartBtnExist]] - Verify actual cart name: [Cart] with expected cart name: [Cart] is present
+17:42:11.494 INFO  - Step-1 [[DriverFactory:initDriver]] - Browser Name is : [chrome]
+17:42:14.062 INFO  - Step-2 [[Base Test:initializationBeforeSuite]] - Initalized log, report, browser instance
+17:42:14.066 INFO  - Step-3 [[LanguageFileReader:initLangFile]] - Language Name is : [english]
+17:42:14.068 INFO  - Step-4 [[LanguageFileReader:initLangFile]] - Language File is Initialized
+17:42:18.141 INFO  - Step-5 [[DriverFactory:launchApplication]] - Application is launched
+17:42:18.141 INFO  - Step-6 [[Base Test:setupBeforeTest]] - Property file loaded
+17:42:18.188 INFO  - Step-1 [[HomePageTest:cartButtonLabelTest]] - Test Case 1: STARTED
+17:42:18.220 INFO  - Step-2 [[UnicodeConverter:UnicodeToStringConverter]] - Unicode [\u0043\u0061\u0072\u0074] Converted to String [Cart]
+17:42:18.396 INFO  - Step-3 [[HomePage:verifyCartBtnExist]] - Verify actual cart name: [Cart] with expected cart name: [Cart] is present
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
-  </testcase>
-  <testcase name="searchMobileTest" classname="MutliLangTests.HomePageTest" time="1.776">
-    <system-out><![CDATA[18:49:58.003 INFO  - Step-4 [[Base Test:addTestResult]] - Test Case FINISHED
-18:49:58.006 INFO  - Step-1 [[HomePageTest:searchMobileTest]] - Test Case 2: STARTED
-18:49:59.653 INFO  - Step-2 [[HomePage:searchMobiles]] - Enter Mobile and Search
-18:49:59.656 INFO  - Step-3 [[UnicodeConverter:UnicodeToStringConverter]] - Unicode [\u0052\u0065\u0073\u0075\u006c\u0074\u0073] Converted to String [Results]
-18:49:59.786 INFO  - Step-4 [[HomePage:verifyResultLabel]] - Verify actual result text: [Results] with expected result text: [Results] is present
-]]></system-out>
-  </testcase>
-  <testcase name="signInEmailLabelTest" classname="MutliLangTests.SignInPageTest" time="0.746">
-    <system-out><![CDATA[18:49:59.878 INFO  - Step-5 [[Base Test:addTestResult]] - Test Case FINISHED
-18:49:59.882 INFO  - Step-1 [[SignInPageTest:signInEmailLabelTest]] - Test Case 3: STARTED
-18:50:00.569 INFO  - Step-2 [[SignInPage:clickSignInBtn]] - Clicked on Sign In Button
-18:50:00.571 INFO  - Step-3 [[UnicodeConverter:UnicodeToStringConverter]] - Unicode [\u0045\u006d\u0061\u0069\u006c\u0020\u006f\u0072\u0020\u006d\u006f\u0062\u0069\u006c\u0065\u0020\u0070\u0068\u006f\u006e\u0065\u0020\u006e\u0075\u006d\u0062\u0065\u0072] Converted to String [Email or mobile phone number]
-18:50:00.632 INFO  - Step-4 [[SignInPage:verifyEmailIdLabel]] - Verify actual email text: [Email or mobile phone number] with expected email text: [Email or mobile phone number] is present
-]]></system-out>
   </testcase>
 </testsuite>

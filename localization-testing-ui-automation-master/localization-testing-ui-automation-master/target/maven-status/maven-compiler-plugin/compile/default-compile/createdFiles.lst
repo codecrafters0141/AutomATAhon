@@ -1,4 +1,3 @@
-com\page\objects\SignInPage.class
 com\config\reader\ConfigFileReader.class
 com\utility\LoggerMethods.class
 com\utility\CommomMethods.class

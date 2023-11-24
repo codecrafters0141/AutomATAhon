@@ -1,0 +1,12 @@
+2023-11-24 17:42:11 INFO  Step-1 [[DriverFactory:initDriver]] - Browser Name is : [chrome]
+2023-11-24 17:42:14 INFO  Step-2 [[Base Test:initializationBeforeSuite]] - Initalized log, report, browser instance
+2023-11-24 17:42:14 INFO  Step-3 [[LanguageFileReader:initLangFile]] - Language Name is : [english]
+2023-11-24 17:42:14 INFO  Step-4 [[LanguageFileReader:initLangFile]] - Language File is Initialized
+2023-11-24 17:42:18 INFO  Step-5 [[DriverFactory:launchApplication]] - Application is launched
+2023-11-24 17:42:18 INFO  Step-6 [[Base Test:setupBeforeTest]] - Property file loaded
+2023-11-24 17:42:18 INFO  Step-1 [[HomePageTest:cartButtonLabelTest]] - Test Case 1: STARTED
+2023-11-24 17:42:18 INFO  Step-2 [[UnicodeConverter:UnicodeToStringConverter]] - Unicode [\u0043\u0061\u0072\u0074] Converted to String [Cart]
+2023-11-24 17:42:18 INFO  Step-3 [[HomePage:verifyCartBtnExist]] - Verify actual cart name: [Cart] with expected cart name: [Cart] is present
+2023-11-24 17:42:18 INFO  Step-4 [[Base Test:addTestResult]] - Test Case FINISHED
+2023-11-24 17:42:18 INFO  Step-1 [[DriverFactory:closeDriver]] - Browser is Closed
+2023-11-24 17:42:19 INFO  Step-2 [[Base Test:tearDownAfterSuite]] - Tear down activity finished
