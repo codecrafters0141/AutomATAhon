@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Extra logging related to initialization of Log4j. 
+ Set to debug or trace if log4j initialization is failing. -->
+<Configuration>
+
+ <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss} %-5p %m%n</Property>
+      --  <Property name="APP_LOG_ROOT">${sys:logFilePath}</Property>
+    </Properties>
+	
+  
+    
+    <Appenders>
+		<RollingFile name="fileLogger"
+			fileName="${APP_LOG_ROOT}/${sys:logFileName}.log"
+			  filePattern="${APP_LOG_ROOT}/LogFile_%d{yyyy-MM-dd}.log" 
+			  ignoreExceptions="false">
+            <PatternLayout>
+      <Pattern>${LOG_PATTERN}</Pattern>
+  				</PatternLayout>
+        <!--    <Policies> -->
+                <TimeBasedTriggeringPolicy />
+        <!--    </Policies>--> 
+		</RollingFile>
+		
+		<Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level - %msg%n"/>
+        </Console>
+        
+	</Appenders>
+	
+    <Loggers>
+        
+    	<!-- Root logger referring to console appender -->
+       <Root level="info" additivity="false">
+         <AppenderRef ref="fileLogger"  />
+          <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>
