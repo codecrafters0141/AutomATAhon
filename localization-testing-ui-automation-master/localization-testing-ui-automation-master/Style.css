@@ -1,0 +1,66 @@
+/* Remove Extent logo */
+.brand-logo {
+	display: none !important;
+}
+
+/* Tests and steps pass/fail numbers 
+E.g. 1 test passed
+0 failed, 0 skipped, 0 others
+*/
+.text-small {
+    font-size: 14px;
+}
+
+/* Section headings */
+.left.panel-name {
+	font-size: 18px;
+}
+
+/* 5 boxes beneath the Tests/Steps section */
+ .card-panel {
+    font-size: 14px;
+}
+
+/* Data inside 5 boxes*/
+ .panel-lead {
+    font-size: 16px;
+     left: 19px
+}
+
+/* Black text color of Environment/Categories */
+ .white-text {
+    color: #0a0a0a !important;
+}
+
+/* Box alignment and size for Environment/Categories */
+.right.label.cyan.white-text {
+	font-size: 14px;
+	float: left !important;
+}
+
+/* Green text color of test status */
+ /*.test-status {
+    color: #32cd32;
+}*/
+
+/* Header */
+.report-name { 
+.report-name { 
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #de804d;
+    font-weight: bold;
+    float: none; /* Remove the float */
+    text-align: left; /* Set text alignment to left */
+} 
+
+.report-name > img {
+    float: left;
+    height: 50px; /* Adjust this to your desired height */
+    margin-right: 8px; /* Add some margin if needed */
+}
+/* Passed % in dashboard - categories section */
+.dashboard-categories table tr th:last-child, .dashboard-categories table tr td:last-child{
+	display:none;
+}

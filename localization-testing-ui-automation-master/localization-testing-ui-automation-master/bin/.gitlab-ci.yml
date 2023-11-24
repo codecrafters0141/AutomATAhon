@@ -1,0 +1,80 @@
+image:
+  name: markhobson/maven-chrome:jdk-11
+  entrypoint: [ '/bin/bash', '-c', 'ln -snf /bin/bash /bin/sh && /bin/bash -c $0' ]
+
+stages:
+  # - install 
+  - test
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository"
+  MAVEN_CLI_OPTS: "--batch-mode --errors --fail-at-end --show-version"
+ 
+cache:
+  paths:
+    - .m2/repository
+
+test:
+  stage: test
+  # allow_failure: true
+  before_script:
+   - export JAVA_HOME="/usr/lib/jvm/java-11-openjdk"
+# Run the tests  
+  script:
+   - mvn -version
+   - cd /usr/bin
+   - ls
+  #  - ls -R $CI_PROJECT_DIR/
+  #  - ls -R $CI_PROJECT_DIR/.cache/
+    # - mvn $MAVEN_OPTS clean package
+  #  - apt-get update -qy    
+  #  - apt-get install -y openjdk-11-jre-headless    
+  #  - apt-get install -y unzip    
+  #  - wget -N https://chromedriver.storage.googleapis.com/94.0.4606.61/chromedriver_linux64.zip    
+  #  - unzip chromedriver_linux64.zip    
+  #  - mv chromedriver /usr/local/bin/    
+  #  - chmod +x /usr/local/bin/chromedriver  
+   - mvn dependency:copy-dependencies
+   - mvn clean test
+  
+
+# variables:
+#   GIT_STRATEGY: clone
+# variables:
+#   npm_config_cache: "$CI_PROJECT_DIR/.npm"
+# install dependencies:
+#   stage: install
+#   script:
+#    - mvn dependency:copy-dependencies
+#    - mvn -version
+#    - mvn install
+  # tags:
+  #   - cypress
+# test_label:
+#   stage: test
+#   # services:
+#   #   - selenium/standalone-chrome
+#   script:
+#     - mvn -version
+#     - mvn install
+  artifacts:
+    when: always
+    name: "report"
+    paths:
+      - Reports/**
+    expire_in: 2 days
+  tags:
+    - docker-executor
+# test_transferFunds:
+#   stage: test
+#   script:
+#     - apt-get update && apt-get install gettext-base
+#     - npm install
+#     - npm run test:transferFunds
+#   artifacts:
+#     when: always
+#     paths:
+#       - testReport/**
+#     expire_in: 2 days
+#   tags:
+#     - cypress
