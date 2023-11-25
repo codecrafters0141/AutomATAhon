@@ -2,6 +2,7 @@ package com.config.reader;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -63,9 +64,12 @@ public class DriverFactory {
 
 	public void launchApplication(String url) throws URISyntaxException {
 		try {
+			
 			driver.get(url);
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			
 			driver.manage().window().maximize();
-			 driver.navigate().refresh();
+			// driver.navigate().refresh();
 			LoggerMethods.logInfo("DriverFactory", "launchApplication", "Application is launched");
 		} catch (Exception e) {
 			LoggerMethods.logInfo("DriverFactory", "launchApplication",

@@ -1,7 +1,6 @@
 com\config\reader\ConfigFileReader.class
 com\utility\LoggerMethods.class
 com\utility\CommomMethods.class
-com\page\objects\HomePage.class
 com\config\reader\DriverFactory.class
 com\utility\Translator.class
 com\utility\ScreenshotUtility.class

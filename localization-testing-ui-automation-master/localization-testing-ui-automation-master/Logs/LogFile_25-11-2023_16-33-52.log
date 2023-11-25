@@ -1,0 +1,12 @@
+2023-11-25 16:33:52 INFO  Step-1 [[DriverFactory:initDriver]] - Browser Name is : [chrome]
+2023-11-25 16:33:56 INFO  Step-2 [[Base Test:initializationBeforeSuite]] - Initalized log, report, browser instance
+2023-11-25 16:33:56 INFO  Step-3 [[LanguageFileReader:initLangFile]] - Language Name is : [english]
+2023-11-25 16:33:56 INFO  Step-4 [[LanguageFileReader:initLangFile]] - Language File is Initialized
+2023-11-25 16:34:01 INFO  Step-5 [[DriverFactory:launchApplication]] - Application is launched
+2023-11-25 16:34:01 INFO  Step-6 [[Base Test:setupBeforeTest]] - Property file loaded
+2023-11-25 16:34:01 INFO  Step-1 [[LoginTest:logInTest]] - Test Case 1: STARTED
+2023-11-25 16:34:01 INFO  Step-2 [[HomePage:Login]] - Enter User name
+2023-11-25 16:34:01 INFO  Step-3 [[HomePage:Login]] - Enter password
+2023-11-25 16:34:02 INFO  Step-4 [[HomePage:Submit]] - Click Submit
+2023-11-25 16:34:46 INFO  Step-5 [[Base Test:addTestResult]] - Test Case FINISHED
+2023-11-25 16:34:47 INFO  Step-1 [[Base Test:tearDownAfterSuite]] - Tear down activity finished
