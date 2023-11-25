@@ -1,4 +1,4 @@
-package MutliLangTests;
+package JiraAutomationTests;
 
 import java.io.IOException;
 import java.lang.reflect.Method;

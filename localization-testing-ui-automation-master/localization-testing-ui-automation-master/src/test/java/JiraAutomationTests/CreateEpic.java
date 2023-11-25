@@ -1,4 +1,4 @@
-package MutliLangTests;
+package JiraAutomationTests;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
@@ -6,13 +6,17 @@ import java.net.URISyntaxException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.page.objects.CreateEpicPage;
 import com.page.objects.LoginPage;
 
-public class LoginTest extends BaseTest {
+public class CreateEpic extends BaseTest {
+	CreateEpicPage createEpic;
 	LoginPage logInPage;
+
 
 	@BeforeClass(alwaysRun = true)
 	public void createInstance() throws URISyntaxException {
+		createEpic = new CreateEpicPage(driver);
 		logInPage = new LoginPage(driver);
 	}
 
@@ -21,25 +25,7 @@ public class LoginTest extends BaseTest {
 		extentReport.createTestNode(extentTestCaseNumber + "Login Test", "Verify Login");
 		extentReport.createTestStepNode("Verify Login"); //validateLogin
 		logInPage.validateLogin();
-	}		
+		createEpic.clickIssueType();
+	}	
 
 }
-		
-	
-
-
-
-
-
-
-
-
-
-
-
-
-		
-		
-		
-	
-
