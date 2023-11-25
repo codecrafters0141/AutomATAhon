@@ -4,7 +4,9 @@
   
    <test name="Multi Language Test" >
 	    <classes>
-	         <class name="MutliLangTests.LoginTest"/>	        
+	         <class name="MutliLangTests.LoginTest"/>
+	          <class name="MutliLangTests.CreateProject"/>
+	           <class name="MutliLangTests.CreateEpic"/>	        
 	    </classes>
   </test> 
   
