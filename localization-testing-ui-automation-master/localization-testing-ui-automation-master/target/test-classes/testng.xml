@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" >
   
-   <test name="Multi Language Test" >
+   <test name="Jira automation Test" >
 	    <classes>
-	         <class name="MutliLangTests.LoginTest"/>
-	          <class name="MutliLangTests.CreateProject"/>
-	           <class name="MutliLangTests.CreateEpic"/>	        
+	         <class name="JiraAutomationTests.LoginTest"/>
+	          <class name="JiraAutomationTests.CreateProject"/>
+	           <class name="JiraAutomationTests.CreateEpic"/>	        
 	    </classes>
   </test> 
   

@@ -1,10 +1,13 @@
-D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\utility\Translator.java
 D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\utility\UnicodeConverter.java
-D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\page\objects\LoginPage.java
 D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\config\reader\LanguageFileReader.java
 D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\utility\ScreenshotUtility.java
-D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\config\reader\DriverFactory.java
+D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\page\objects\SystemDashboard.java
 D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\utility\CommomMethods.java
-D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\utility\ExtentReport.java
 D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\utility\LoggerMethods.java
+D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\page\objects\CreateEpicPage.java
+D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\utility\Translator.java
+D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\page\objects\LoginPage.java
+D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\config\reader\DriverFactory.java
+D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\utility\ExtentReport.java
+D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\page\objects\CreateProjectPage.java
 D:\AutomATAhon\localization-testing-ui-automation-master\localization-testing-ui-automation-master\src\main\java\com\config\reader\ConfigFileReader.java
