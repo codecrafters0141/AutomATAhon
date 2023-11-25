@@ -1,0 +1,13 @@
+2023-11-25 15:39:38 INFO  Step-1 [[DriverFactory:initDriver]] - Browser Name is : [chrome]
+2023-11-25 15:39:41 INFO  Step-2 [[Base Test:initializationBeforeSuite]] - Initalized log, report, browser instance
+2023-11-25 15:39:41 INFO  Step-3 [[LanguageFileReader:initLangFile]] - Language Name is : [english]
+2023-11-25 15:39:41 INFO  Step-4 [[LanguageFileReader:initLangFile]] - Language File is Initialized
+2023-11-25 15:39:47 INFO  Step-5 [[DriverFactory:launchApplication]] - Application is launched
+2023-11-25 15:39:47 INFO  Step-6 [[Base Test:setupBeforeTest]] - Property file loaded
+2023-11-25 15:39:47 INFO  Step-1 [[LoginTest:logInTest]] - Test Case 1: STARTED
+2023-11-25 15:39:47 INFO  Step-2 [[HomePage:Login]] - Enter User name
+2023-11-25 15:39:48 INFO  Step-3 [[HomePage:Login]] - Enter password
+2023-11-25 15:39:48 INFO  Step-4 [[HomePage:Submit]] - Click Submit
+2023-11-25 15:40:28 INFO  Step-5 [[HomePage:Login unseccusful]] - Failure >>>>>>>>>:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: h1[normalize-space()='System Dashboard']' (tried for 40 second(s) with 500 milliseconds interval) Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: h1[normalize-space()='System Dashboard']' (tried for 40 second(s) with 500 milliseconds interval)
+2023-11-25 15:40:28 INFO  Step-6 [[Base Test:addTestResult]] - Test Case FINISHED
+2023-11-25 15:40:28 INFO  Step-1 [[Base Test:tearDownAfterSuite]] - Tear down activity finished

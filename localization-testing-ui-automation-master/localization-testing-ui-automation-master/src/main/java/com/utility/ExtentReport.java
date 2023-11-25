@@ -28,7 +28,7 @@ public class ExtentReport {
 	String toLangCode;
 	String fromLangCode = "en";
 	String reportPath = System.getProperty("user.dir") + "/Reports/";
-	String documnetTitle = "Localization Automation Report";
+	String documnetTitle = "Automation Report";
 	String reportName = "Test Report";
 	boolean multiLangReport;
 

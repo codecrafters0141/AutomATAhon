@@ -39,15 +39,15 @@ public class BaseTest {
 	}
 
 	@Parameters({ "language" })
-	@BeforeTest(alwaysRun = true)
-	public void setupBeforeTest(@Optional("Default Language") String languageName)
-			throws IOException, URISyntaxException {
-		languageFileReader.setLangCodeProperty(languageName);
-		languageFileReader.initLangFile();
-		extentReport.startReport();
-		driverFactory.launchApplication(languageFileReader.getKeyValueFromLangFile("url"));
-		LoggerMethods.logInfo("Base Test", "setupBeforeTest", "Property file loaded");
-	}
+		@BeforeTest(alwaysRun = true)
+		public void setupBeforeTest(@Optional("Default Language") String languageName)
+				throws IOException, URISyntaxException {
+			languageFileReader.setLangCodeProperty(languageName);
+			languageFileReader.initLangFile();
+			extentReport.startReport();
+			driverFactory.launchApplication(ConfigFileReader.getConfigPropery("URL"));
+			LoggerMethods.logInfo("Base Test", "setupBeforeTest", "Property file loaded");
+		}
 
 	@BeforeMethod(alwaysRun = true)
 	public void setupBeforeMethod(Method testMethod) throws Exception {
@@ -67,7 +67,7 @@ public class BaseTest {
 
 	@AfterSuite(alwaysRun = true)
 	public void tearDownAfterSuite() throws URISyntaxException {
-		driverFactory.closeDriver();
+	//	driverFactory.closeDriver();
 		extentReport.flushReport();
 		LoggerMethods.logInfo("Base Test", "tearDownAfterSuite", "Tear down activity finished");
 	}

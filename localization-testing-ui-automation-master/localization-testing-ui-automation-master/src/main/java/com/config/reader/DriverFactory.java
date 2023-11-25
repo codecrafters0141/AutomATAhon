@@ -37,7 +37,6 @@ public class DriverFactory {
 				options.addArguments("start-maximized"); // open Browser in maximized mode
 				options.addArguments("disable-infobars"); 
 				options.addArguments("--disable-extensions");
-				options.addArguments("--headless");
 				options.addArguments("--disable-gpu");
 				options.addArguments("--disable-dev-shm-usage");
 //				options.addArguments("--headless");

@@ -1,0 +1,12 @@
+2023-11-25 15:07:46 INFO  Step-1 [[DriverFactory:initDriver]] - Browser Name is : [chrome]
+2023-11-25 15:07:51 INFO  Step-2 [[Base Test:initializationBeforeSuite]] - Initalized log, report, browser instance
+2023-11-25 15:07:51 INFO  Step-3 [[LanguageFileReader:initLangFile]] - Language Name is : [english]
+2023-11-25 15:07:51 INFO  Step-4 [[LanguageFileReader:initLangFile]] - Language File is Initialized
+2023-11-25 15:07:57 INFO  Step-5 [[DriverFactory:launchApplication]] - Application is launched
+2023-11-25 15:07:57 INFO  Step-6 [[Base Test:setupBeforeTest]] - Property file loaded
+2023-11-25 15:07:57 INFO  Step-1 [[HomePageTest:cartButtonLabelTest]] - Test Case 1: STARTED
+2023-11-25 15:07:57 INFO  Step-2 [[UnicodeConverter:UnicodeToStringConverter]] - Unicode [\u0043\u0061\u0072\u0074] Converted to String [Cart]
+2023-11-25 15:08:37 INFO  Step-3 [[HomePage:verifyCartBtnExist]] - Failure >>>>>>>>>:org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='nav-cart-text-container']' (tried for 40 second(s) with 500 milliseconds interval) Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id='nav-cart-text-container']' (tried for 40 second(s) with 500 milliseconds interval)
+2023-11-25 15:08:37 INFO  Step-4 [[Base Test:addTestResult]] - Test Case FINISHED
+2023-11-25 15:08:38 INFO  Step-1 [[DriverFactory:closeDriver]] - Browser is Closed
+2023-11-25 15:08:39 INFO  Step-2 [[Base Test:tearDownAfterSuite]] - Tear down activity finished

@@ -1,0 +1,29 @@
+2023-11-25 15:13:55 INFO  Step-1 [[DriverFactory:initDriver]] - Browser Name is : [chrome]
+2023-11-25 15:13:59 INFO  Step-2 [[Base Test:initializationBeforeSuite]] - Initalized log, report, browser instance
+2023-11-25 15:13:59 INFO  Step-3 [[LanguageFileReader:initLangFile]] - Language Name is : [english]
+2023-11-25 15:13:59 INFO  Step-4 [[LanguageFileReader:initLangFile]] - Language File is Initialized
+2023-11-25 15:14:05 INFO  Step-5 [[DriverFactory:launchApplication]] - Application is launched
+2023-11-25 15:14:05 INFO  Step-6 [[Base Test:setupBeforeTest]] - Property file loaded
+2023-11-25 15:14:05 INFO  Step-1 [[LoginTest:logInTest]] - Test Case 1: STARTED
+2023-11-25 15:14:05 INFO  Step-2 [[HomePage:Login]] - Enter User name
+2023-11-25 15:14:05 INFO  Step-3 [[HomePage:Login]] - Enter password
+2023-11-25 15:14:05 INFO  Step-4 [[HomePage:Login unseccusful]] - Failure >>>>>>>>>:org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='login-form-submit']"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74d899beba6fa3dc5524e731b30ba43e, findElement {using=xpath, value=//input[@id='login-form-submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56960}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56960/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74d899beba6fa3dc5524e731b30ba43e no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='login-form-submit']"}
+  (Session info: chrome=119.0.6045.160)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [74d899beba6fa3dc5524e731b30ba43e, findElement {using=xpath, value=//input[@id='login-form-submit']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56960}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56960/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 74d899beba6fa3dc5524e731b30ba43e
+2023-11-25 15:14:06 INFO  Step-5 [[Base Test:addTestResult]] - Test Case FINISHED
+2023-11-25 15:14:06 INFO  Step-1 [[DriverFactory:closeDriver]] - Browser is Closed
+2023-11-25 15:14:07 INFO  Step-2 [[Base Test:tearDownAfterSuite]] - Tear down activity finished

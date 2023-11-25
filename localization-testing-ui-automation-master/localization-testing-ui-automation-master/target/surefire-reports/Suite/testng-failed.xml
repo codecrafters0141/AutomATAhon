@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Multi Language Test(failed)" verbose="0">
+    <classes>
+      <class name="MutliLangTests.LoginTest">
+        <methods>
+          <include name="setupBeforeTest"/>
+          <include name="tearDownAfterSuite"/>
+          <include name="addTestResult"/>
+          <include name="createInstance"/>
+          <include name="setupBeforeMethod"/>
+          <include name="initializationBeforeSuite"/>
+          <include name="logInTest"/>
+        </methods>
+      </class> <!-- MutliLangTests.LoginTest -->
+    </classes>
+  </test> <!-- Multi Language Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
